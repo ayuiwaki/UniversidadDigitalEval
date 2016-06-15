@@ -1,0 +1,5 @@
+#!/bin/bash
+#Crea un script donde se respalde todo lo que este en /home/usuario
+
+mkdir respaldoUser
+cp -r /home/$USER/ respaldoUser
