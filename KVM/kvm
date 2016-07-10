@@ -1,0 +1,4 @@
+#!/bin/bash
+
+$qemu-img create -f raw -o size=4G image.raw -enable-kvm
+
